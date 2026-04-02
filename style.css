@@ -1,0 +1,68 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.current-week {
+  background: #d1ffd1;
+}
+
+.login-box {
+  width: 200px;
+  padding: 20px;
+  border: 1px solid #aaa;
+}
+
+input {
+  margin: 5px 0;
+  padding: 5px;
+}
+
+/* Table Styling */
+table {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+}
+
+/* Cell Styling */
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Alternating Row Colors */
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.current-week {
+  background-color: #fffce0 !important;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    th, td {
+        padding: 8px;
+    }
+}
