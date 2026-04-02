@@ -1,4 +1,6 @@
-This is the house cleaning scheduler repeating work for every week.
-You can login and manager your people entry with Database. /admin you can login link, it will not work here if your upload all files into your own hosting then it will work, admin panel is developed by php.
+This is a weekly house‑cleaning scheduler.
+You can log in and manage your team’s entries using the built‑in database system.
+To access the admin panel, go to /admin. (It won’t work here, but once you upload all files to your own hosting environment, the admin panel—built with PHP—will function normally.)
+Admin Login:
 User: admin
 Password: 12345
